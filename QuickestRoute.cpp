@@ -84,6 +84,7 @@ int main(int argc,char* argv[])
 		MakePath();
 		reverse(finalPath.begin(), finalPath.end());
 		cout << "Shortest path to the exit is: " << finalPath << endl;
+		cin >> rows;
 	}
 }
 
